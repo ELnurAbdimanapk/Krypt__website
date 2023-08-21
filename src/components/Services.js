@@ -40,9 +40,12 @@ const StyledCard = styled(Card)`
   }
 
   @media (max-width: 600px) {
+    padding: 0;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px;
+    width: 250px;
+   
   }
 `;
 const StyledTypography = styled(Typography)`
